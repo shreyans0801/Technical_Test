@@ -1,0 +1,203 @@
+<!-- TD Insurance Form - Technical Test -->
+<!-- By Shreyans Patel -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/icon">
+	<title>TD Form</title>
+</head>
+<body>
+	<!-- start header-->
+	<header class="navbar navbar-expand-lg bg-td td-navbar fixed-top">  		
+  		<div class="container">
+  			<!-- mobile menu button -->
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<a class="navbar-brand" href="#">
+	    		<img src="images/logo.png" alt="TD Insurance" class="logo">
+	  		</a>	  		
+	  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    		<ul class="navbar-nav mr-auto">
+			      	<li class="nav-item">
+			        	<a class="nav-link" href="#">Products</a>
+			      	</li>
+			      	<li class="nav-item">
+			        	<a class="nav-link" href="#">Claims</a>
+			      	</li>
+			      	<li class="nav-item">
+			        	<a class="nav-link" href="#">Contact Us</a>
+			      	</li>		      	
+	    		</ul>
+	    		<ul class="navbar-nav ml-auto">
+	    			<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="ddprovince" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          	Ontario
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="ddprovince">
+				          	<a class="dropdown-item" href="#">Alberta</a>
+				          	<a class="dropdown-item" href="#">British Columbia</a>		          	
+				              	<a class="dropdown-item" href="#">Manitoba</a>
+						<a class="dropdown-item" href="#">New Brunswick</a>						
+						<a class="dropdown-item" href="#">Newfoundland and Labrador</a>
+				          	<a class="dropdown-item" href="#">Nova Scotia</a>
+				          	<a class="dropdown-item" href="#">Ontario</a>
+						<a class="dropdown-item" href="#">Prince Edward Island</a>          	
+						<a class="dropdown-item" href="#">Quebec</a>
+				          	<a class="dropdown-item" href="#">Saskatchewan</a>
+				          	
+			        	</div>
+			      	</li>
+			      	<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="ddlang" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          	EN
+			        	</a>
+			        	<div class="dropdown-menu" aria-labelledby="ddlang">
+				          	<a class="dropdown-item" href="#">EN</a>
+				          	<a class="dropdown-item" href="#">FR</a>
+			        	</div>
+			      	</li>
+			      	<li class="nav-item">
+			      		<form class="form-inline">
+			      			<input class="form-control d-none" type="search" placeholder="Search" aria-label="Search">
+			      			<a href="#" class="nav-link">
+				    			<span class="icon-search"></span>
+				    		</a>
+			    		</form>			    		
+			      	</li>
+			      	<li class="nav-item d-md-none d-sm-none d-xs-none">
+			        	<a class="nav-link" href="#">
+							<span class="icon-locked mr8"></span>Login
+						</a>
+			      	</li>
+	    		</ul>    		
+	  		</div>
+	  		<ul class="navbar-nav ml-auto d-xl-none d-lg-none">
+	  			<li class="nav-item">
+		        	<a class="nav-link" href="#">
+						<span class="icon-locked"></span>
+					</a>
+		      	</li>
+    		</ul>  
+  		</div>
+  	</header>
+  	<!-- end header -->
+  	<!-- start body -->
+  	<div class="container td-container">
+  		<div class="row">
+  			<!-- start main -->
+  			<main class="col-12 col-lg-9 col-md-8">
+  				<h4 class="mt80 mb25">Tell Us About Yourself</h4>
+  				<p>Thanks for choosing TD Insurance! In order to safely set up your new accounts and services, please tell us about yourself.</p>
+  				<h4 class="mt65 mb40">Personal Information</h4>
+  				<form>
+  					<div class="row">
+	  					<div class="form-group col-lg-2 col-md-3 col-sm-6">
+		  					<select class="form-control">
+		  						<option selected disabled>Title*</option>
+		  						<option>Mr</option>
+		  						<option>Mrs</option>
+		  						<option>Miss</option>
+		  					</select>
+	  					</div>
+	  					<div class="form-group col-lg-3 col-md-4 col-sm-6">
+	  						<input type="text" class="form-control" placeholder="First Name*">
+	  					</div>
+	  					<div class="form-group col-lg-3 col-md-4 col-sm-6">
+		  					<input type="text" class="form-control" placeholder="Middle Initial">
+		  				</div>
+	  					<div class="form-group col-lg-4 col-md-5 col-sm-6">
+	  						<input type="text" class="form-control" placeholder="Last Name*">
+	  					</div>
+	  					<div class="form-group td-info col-lg-5 col-md-6 col-sm-12">
+	  						<input type="email" class="form-control" placeholder="Email Address*">
+	  						<a href="#" class="td-help" data-toggle="tooltip" data-placement="bottom" title="Please enter a valid email address of format email@email.com"></a>
+	  					</div>
+	  					<div class="form-group col-lg-3 col-md-5 col-sm-6">
+		  					<input type="date" class="form-control" placeholder="Date of Birth*">
+		  				</div>
+		  				<div class="form-group td-info col-lg-4 col-md-6 col-sm-6">
+	  						<input type="text" class="form-control" placeholder="Social Insurance Number*">
+	  						<a href="#" class="td-help" data-toggle="tooltip" data-placement="bottom" title="Please enter a valid SIN of format xxx-xxx-xxx"></a>
+	  					</div>
+  					</div>
+  					<div class="row">
+  						<div class="col-12 td-buttons">
+  							<button type="submit" class="btn btn-success float-right">Submit</button>
+  							<button type="reset" class="btn btn-danger float-right">Cancel</button>
+  						</div>	
+  					</div>
+  					
+  				</form>
+  			</main>
+  			<!-- end main -->
+  			<!-- start side -->
+  			<div class="col-12 col-lg-3 col-md-4 td-side">
+  				<p>You are applying for:</p>
+  				<h5>TD&reg; Travel Medical Insurance</h5>
+  				<button type="button" class="btn btn-success btn-block">See More Coverage Options</button>
+  			</div>
+  			<!-- end side -->
+  		</div>
+  	</div>
+  	<!-- end body -->
+  	<!-- start footer -->
+  	<footer class="container-fluid td-footer">
+  		<div class="row">
+  			<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 text-center">
+  				<h2>Need to talk us directly? <a href="#">Contact Us <span class="icon-angle-arrow-right"></span></a></h2>
+  				<ul class="nav td-links">
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="#">Privacy and Security</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="#">Legal</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="#">Accessibility</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="#">About Us</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" href="#">Careers</a>
+				  	</li>
+				</ul>
+				<ul class="nav td-social">
+				  	<li class="nav-item">
+				    	<a class="nav-link icon-facebook" href="#"></a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link icon-twitter" href="#"></a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link icon-youtube" href="#"></a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link icon-rss" href="#"></a>
+				  	</li>
+				</ul>
+  			</div>
+  		</div>
+  	</footer>
+  	<!-- end footer -->
+	<!-- javascripts -->
+	<script src="js/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+	<script src="js/popper.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- tooltip activation -->
+	<script type="text/javascript">
+		$(function () {
+		  	$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+</body>
+</html>
