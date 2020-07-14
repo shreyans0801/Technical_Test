@@ -1,0 +1,121 @@
+/* TD Insurance Form - Technical Test */
+/* By Shreyans Patel */
+/* Custom Stylesheet */
+
+body{font-family: 'weblysleek_uilight'; background-color: #efeff4;}
+
+/*Header styling*/
+.logo{width: auto; height: 40px;}
+.bg-td{background-color: #12422b;}
+.navbar {padding: 0 16px;}
+.navbar-brand {padding: 13px 0;}
+.td-navbar .navbar-nav .nav-link {color: rgba(255,255,255,0.8);padding: 21px 25px;}
+.td-navbar .navbar-nav .nav-link:focus, 
+.td-navbar .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
+.td-navbar .navbar-nav .nav-item:last-child .nav-link {padding-right: 0;}
+.td-container{padding-top: 66px;padding-bottom: 25px;}
+.td-container h4, .td-container h5{letter-spacing: .3px;color: #656565;}
+.td-container p{color: #1c1c1c; font-family: 'weblysleek_uisemilight'; font-size: 16px;margin: 0;text-align: left;}
+.navbar-nav [class^="icon-"], .navbar-nav [class*=" icon-"] {font-size: 15px;}
+.navbar-toggler-icon {background-image: url(../images/menu-button.svg);}
+.dropdown-toggle::after{content: "\e900";color: #fff;font-family: 'fonticon'; font-size: 10px;border: none;}
+.dropdown-menu {margin: 0;border: none;border-radius: 0;box-shadow: 0px 1px 9px 0px rgba(0,0,0,.15);}
+.dropdown-item.active, .dropdown-item:active {background-color: #00a221;}
+.dropdown-item:focus {outline: none;}
+.td-navbar .nav-item.dropdown.show .nav-link.dropdown-toggle{background-color: #fff;color: #12422b;}
+.td-navbar .nav-item.dropdown.show .nav-link.dropdown-toggle::after{color: #12422b;}
+
+/*tooltip customized*/
+.tooltip-inner{background-color: #00a221; font-family: 'weblysleek_uilight';}
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before{border-bottom-color: #00a221;}
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before{border-top-color: #00a221;}
+
+/*buttons customized*/
+.btn{padding: 5px 12px;font-size: 15px;}
+.btn-success {background-color: #00a221;border-color: #00a221;}
+.btn-danger{background-color: #c65415;border-color: #c65415;}
+.btn-danger:hover {background-color: #b44a0f;border-color: #b44a0f;}
+.btn-danger:not(:disabled):not(.disabled).active, 
+.btn-danger:not(:disabled):not(.disabled):active, 
+.show>.btn-danger.dropdown-toggle {background-color: #b44a0f;border-color: #b44a0f;}
+.btn-danger:not(:disabled):not(.disabled).active:focus, 
+.btn-danger:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-danger.dropdown-toggle:focus, .btn-danger.focus, 
+.btn-danger:focus {box-shadow: 0 0 0 0.2rem rgba(220, 92, 53, 0.5);}
+
+/*form customized*/
+.form-control, select.form-control:not([size]):not([multiple]) {border-radius:0; padding: 3px 10px;height: 32px;-webkit-appearance: none;}
+select::-ms-expand {display: none;}
+select {background-image: url(../images/angle-arrow-down.svg);background-size: 12px;background-repeat: no-repeat;background-position: right 14px top 9px;}
+.form-control:focus {border-color: #00a221;box-shadow: 0 0 0 0.2rem rgba(0,162,33,.25);}
+.td-help {width: 17px;height: 17px;background-color: #fff;color: #229350;border: 1px solid #229350;position: absolute;right: 15px;top: 8px;border-radius: 50%;}
+.td-help:after {content: "?";font-size: 12px;position: absolute;top: -1px;left: 5px;font-family: 'weblysleek_uisemibold';}
+.td-info{padding-right: 37px;}
+.btn.float-right + .btn.float-right{margin-right: 25px;}
+
+/*footer styling*/
+.td-footer{color:#fff;background-color: #1a5336;padding-top: 80px;padding-bottom: 80px;background-image: url(../images/sofa.png);background-repeat: no-repeat;background-position: left 80px top 70px;}
+.td-footer h2 > a,.td-footer h2 > a span{color:#51d453;}
+.td-footer a:hover{text-decoration: none;}
+.td-footer h2 > a span {font-size: 20px;}
+.td-links{display: inline-block;border-top: 1px solid rgba(81, 212, 83, 0.3);border-bottom: 1px solid rgba(81, 212, 83, 0.3);}
+.td-links .nav-item {display: inline-block;}
+.td-links .nav-link {font-size: 17px;color: #fff;padding: 30px 15px;transition:color 0.25s ease;}
+.td-links .nav-link:hover{color: #00a221;}
+.td-social .nav-link {font-size: 32px;border: 1px solid #00a221;height: 64px;width: 64px;border-radius: 50%;padding: 15px;position: relative;overflow: hidden;}
+.td-social .nav-link:hover{color: #fff;}
+.td-social .nav-link:before{position: relative;z-index: 1;}
+.td-social .nav-link:after {position: absolute;content: "";top:0;left: 0;width: 0;height: 100%;background-color: #00a221;transform-origin:left;transition:width 0.25s ease;z-index:0;}
+.td-social .nav-link:hover:after {width: 100%;}
+.td-social {display: inline-block;margin-top:  30px;}
+.td-social .nav-item {display: inline-block;padding: 0 15px;}
+
+/*spacing arrangments*/
+.mr8{margin-right: 8px;}
+.mt80{margin-top: 80px;}
+.mt65{margin-top: 65px;}
+.mb25{margin-bottom: 25px;}
+.mb40{margin-bottom: 40px;}
+.form-group {margin-bottom: 45px;}
+.td-buttons{margin-top: 25px;}
+.td-side{padding-top: 40px;}
+.td-side h5{margin-top: 45px;margin-bottom: 35px;}
+.td-footer h2 {margin-bottom: 40px;}
+
+/*media queries for setting small screens*/
+
+/*Large devices (desktops, 991px and less)*/
+@media (max-width: 991px) { 
+	.navbar-toggler {padding: 4px 0;}
+	.logo {height: 32px;width: auto;}
+	.navbar-toggler-icon {height: 20px;width: 20px;}
+	.navbar-brand {padding: 6px 0 6px 8px;}
+	.td-navbar .navbar-nav .nav-link {padding: 11px 10px;}
+	.navbar-collapse{position: absolute;top: 46px;width: 100%;background-color: rgb(18, 66, 43);left: 0px;max-height: 300px;overflow: auto;}
+	.td-footer {padding-bottom: 240px;background-position: center bottom 20px;}
+}
+/*Medium devices (tablets, 767px and less)*/
+@media (max-width: 767px) { 
+	.td-container{text-align: center;padding-top: 46px;padding-bottom: 15px;}
+	.mt80 {margin-top: 60px;}
+	.mb25 {margin-bottom: 20px;}
+	.mt65 {margin-top: 45px;}
+	.td-container h4{font-size: 20px;}
+	.form-control {border: none;border-bottom: 1px solid #ced4da;}
+	.td-buttons {margin-top: 0;}
+	.td-side h5{font-size: 18px;}
+	.td-side {padding-top: 50px;}
+	.td-side h5 {margin-top: 35px;}
+	.td-footer {padding-top: 60px;background-size: 240px;background-position: center bottom 35px;}
+	.td-footer h2 {margin-bottom: 30px;font-size: 22px;}
+	.td-links {width: 100%;padding: 20px 0;}
+	.td-links .nav-item {display: block;}
+	.td-links .nav-link {padding: 5px 0;}
+	.td-footer h2 > a span {font-size: 14px;}
+	.td-social .nav-link {font-size: 28px;border: 1px solid #00a221;height: 60px;width: 60px;}
+    .td-social .nav-item {display: inline-block;padding: 0 4px;	}
+}
+/*Small devices (landscape phones, 575px and less)*/
+@media (max-width: 575px) {
+	.d-xs-none{display: none;}
+}
