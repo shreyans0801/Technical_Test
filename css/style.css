@@ -79,8 +79,6 @@ select {background-image: url(../images/angle-arrow-down.svg);background-size: 1
 .td-side h5{margin-top: 45px;margin-bottom: 35px;}
 .td-footer h2 {margin-bottom: 40px;}
 
-/*media queries for setting small screens*/
-
 /*Large devices (desktops, 991px and less)*/
 @media (max-width: 991px) { 
 	.navbar-toggler {padding: 4px 0;}
